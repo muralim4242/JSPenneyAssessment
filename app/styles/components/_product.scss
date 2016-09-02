@@ -1,0 +1,48 @@
+.product {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    padding: 1rem;
+    transition: background 0.3s ease;
+
+    input,
+    p {
+        margin: 0;
+    }
+
+    > :first-child {
+        margin-right: 1rem;
+    }
+
+    &:hover {
+        background: #f0f0f0;
+    }
+}
+
+.product__subtext {
+    color: #999;
+}
+
+.product-completed {
+    .product-subtext,
+    p {
+        color: $light-color;
+        text-decoration: line-through;
+    }
+}
+
+hr {
+    margin: 0 0 0 -15px;
+}
+
+.font12px {
+    div {
+        ul {
+            li {
+                float: left;
+            }
+            list-style-type: disc;
+        }
+    }
+    font-size: 12px;
+}

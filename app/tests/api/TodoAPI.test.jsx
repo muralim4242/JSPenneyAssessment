@@ -1,4 +1,4 @@
-var expect = require('expect');
+ar expect = require('expect');
 
 var TodoAPI = require('TodoAPI');
 

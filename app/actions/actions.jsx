@@ -5,29 +5,17 @@ export var setSearchText = (searchText) => {
   };
 };
 
-export var toggleShowCompleted = () => {
+export var setFilterType = (filterType) => {
   return {
-    type: 'TOGGLE_SHOW_COMPLETED'
+    type: 'SET_FILTER_TYPE',
+    filterType
   };
 };
 
-export var addTodo = (text) => {
+export var addProducts = (products) => {
   return {
-    type: 'ADD_TODO',
-    text
+    type: 'ADD_PRODUCTS',
+    products
   };
-};
-
-export var addTodos = (todos) => {
-  return {
-    type: 'ADD_TODOS',
-    todos
-  };
-};
-
-export var toggleTodo = (id) => {
-  return {
-    type: 'TOGGLE_TODO',
-    id
-  };
+  debugger;
 };

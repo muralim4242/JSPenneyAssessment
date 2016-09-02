@@ -1,1 +1,1 @@
-Boilerplate React App
+JCPenney Assessment App
