@@ -3,7 +3,7 @@ var $ = require('jquery');
 module.exports = {
     getProducts: function() {
         //      var stringProducts = products;
-        debugger;
+      
         var tempProducts = [];
 
         try {

@@ -17,5 +17,5 @@ export var addProducts = (products) => {
     type: 'ADD_PRODUCTS',
     products
   };
-  debugger;
+
 };
